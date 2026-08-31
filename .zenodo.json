@@ -1,0 +1,20 @@
+{
+  "title": "whisplab: a frame-level multi-task Transformer for automatic guitar tablature transcription",
+  "description": "<p>whisplab maps electric guitar audio to a dense tablature representation, jointly predicting per-string fret labels, note onsets, and eleven playing techniques at frame level. A multi-scale convolutional front-end over log-scaled Constant-Q Transform spectrograms feeds an eight-layer Pre-LN Transformer encoder with independent per-string heads.</p><p>Trained on the GOAT dataset, the system reaches a note-level F1 of 0.70 on the held-out test split. The repository also contains the improvisation case study, in which the model's output is compared against a hand transcription of an unconstrained 26-second improvised solo &mdash; the only setting in which performed string assignments are known, and therefore the only direct measurement of tablature rather than pitch quality.</p><p>Reference implementation for the bachelor's thesis <em>Automatic Guitar Tablature Transcription with a Multi-Task Transformer</em>, Johannes Kepler University Linz, 2026.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Voshchepynets, Maximilian Johannes Paul"
+    }
+  ],
+  "keywords": [
+    "automatic music transcription",
+    "guitar tablature",
+    "transformer",
+    "music information retrieval",
+    "deep learning",
+    "GOAT dataset"
+  ]
+}

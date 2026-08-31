@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+title: >-
+  whisplab: a frame-level multi-task Transformer for automatic guitar
+  tablature transcription
+message: >-
+  If you use this software or the accompanying case-study data, please cite
+  both the software and the thesis it accompanies.
+type: software
+authors:
+  - given-names: Maximilian Johannes Paul
+    family-names: Voshchepynets
+    email: max.developer10001@gmail.com
+repository-code: "https://github.com/MaximilianJPaul/whisplab"
+abstract: >-
+  whisplab maps electric guitar audio to a dense tablature representation,
+  jointly predicting per-string fret labels, note onsets, and eleven playing
+  techniques at frame level. A multi-scale convolutional front-end over
+  log-scaled Constant-Q Transform spectrograms feeds an eight-layer Pre-LN
+  Transformer encoder with independent per-string heads. Trained on the GOAT
+  dataset, the system reaches a note-level F1 of 0.70 on the held-out test
+  split. The repository also contains the improvisation case study, in which
+  the model's output is compared against a hand transcription of an
+  unconstrained 26-second solo.
+keywords:
+  - automatic music transcription
+  - guitar tablature
+  - transformer
+  - music information retrieval
+  - deep learning
+license: MIT
+version: 1.0.0
+date-released: "2026-08-31"
+
+references:
+  - type: thesis
+    title: >-
+      Automatic Transcription of Guitar Improvisations from Audio Recordings
+    authors:
+      - given-names: Maximilian Johannes Paul
+        family-names: Voshchepynets
+    thesis-type: Bachelor's thesis
+    institution:
+      name: Johannes Kepler University Linz
+    year: 2026
+
+  - type: data
+    title: >-
+      Improvisation Case Study: Audio, Hand Transcription and Model Output
+      for Automatic Guitar Tablature Transcription
+    authors:
+      - given-names: Maximilian Johannes Paul
+        family-names: Voshchepynets
+        affiliation: Johannes Kepler University Linz
+    doi: 10.5281/zenodo.22212907
+    publisher:
+      name: Zenodo
+    version: 1.0.0
+    year: 2026
+    license: CC-BY-4.0

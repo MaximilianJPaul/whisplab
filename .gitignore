@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Datasets — GOAT is ~15 GB; see data/README.md for how to obtain it
+GOAT/
+
+# Model checkpoints — best_model.pt is 176 MB, over GitHub's file limit.
+# See the README for the Zenodo download.
+checkpoints/
+*.pt
+*.pth
+
+# Scratch outputs from predict / evaluate runs
+predictions/
+
+# Working recordings kept outside the repo; the case-study take is committed
+# as case_study/audio/improvisation_case_study.wav
+/*.wav
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Built Zenodo bundle
+whisplab-case-study-*.zip
