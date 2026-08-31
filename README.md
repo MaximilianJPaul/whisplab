@@ -12,7 +12,7 @@ says _how the piece was played_, committing every note to a specific string and
 fret. whisplab predicts that directly, jointly estimating per-string fret
 labels, note onsets, and eleven playing techniques at frame level.
 
-This is the reference implementation for the bachelor's thesis \_Automatic Transcription of Guitar Improvisations from Audio Recordings. (Johannes Kepler
+This is the reference implementation for the bachelor's thesis Automatic Transcription of Guitar Improvisations from Audio Recordings. (Johannes Kepler
 University Linz, 2026).
 
 ```
